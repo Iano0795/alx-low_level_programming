@@ -1,13 +1,13 @@
 #include<stdio.h>
+
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
-int main(void) /* THis is the main function */
+
+int main(void)
 {
-	/*We display the line */
 	puts("\"Programming is like building a multilingual puzzle");
-	/*The return code for the main function */
 	return (0);
 }
