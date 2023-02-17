@@ -1,11 +1,11 @@
 #include <stdlib.h>
-#include<stdio.h>
+#include <stdio.h>
 #include <time.h>
 
 /**
  * main - Entry point
  * 
- * Description: 'the program's description'
+ * Description: 'generates a random number
  * 
  * Return: Always 0 (Success)
  */
@@ -16,6 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -28,5 +29,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
