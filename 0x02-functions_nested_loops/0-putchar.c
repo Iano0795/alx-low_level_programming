@@ -9,6 +9,7 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
 int main(void)
 {
 	char put[8] = "_putchar";
@@ -18,5 +19,6 @@ int main(void)
 		_putchar(put[i]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
