@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks if a letter is big
- *
+ * @c: character to be verified
  * Return: Always 0 Success
  */
 int _islower(int c)
