@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Prints the sign of n
- * @n - character to be verified
+ * @n: character to be verified
  * Return: Always 0 Success
  */
 int print_sign(int n)
