@@ -5,7 +5,7 @@
  * @i: chracter to be verified
  * Return: Returns a certain value
  */
-int _abs(int)
+int _abs(int i)
 {
 	if (i > 0)
 		return (i);
