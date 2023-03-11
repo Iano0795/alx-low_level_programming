@@ -6,7 +6,7 @@
  * @argc: size of argv 
  * @argv: array of pointers
  *
- * Return: 0 on success
+ * Return: success (0)
  */
 int main(int argc, char *argv[])
 {
