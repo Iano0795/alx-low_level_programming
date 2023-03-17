@@ -8,7 +8,7 @@
  * Return: Returns memory allocated
  */
 
-int *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *i;
 
