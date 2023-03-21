@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	printf("The file is %s", _FILE_);
+	printf("The file is %s", __FILE__);
 
 	return (0);
 }
