@@ -5,7 +5,7 @@
 /**
  * op_add - adds two numbers
  * @a: int var
- * @b; int var
+ * @b: int var
  * Return: the sum
  */
 int op_add(int a, int b)
