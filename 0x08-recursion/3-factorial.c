@@ -8,7 +8,7 @@
 
 int factorial(int n)
 {
-	int factorial;
+	int Factorial;
 
 	if (n == 0)
 	{
@@ -20,7 +20,7 @@ int factorial(int n)
 	}
 	else
 	{
-		factorial = n * factorial(n - 1);
+		Factorial = n * factorial(n - 1);
 	}
-	return (factorial);
+	return (Factorial);
 }
