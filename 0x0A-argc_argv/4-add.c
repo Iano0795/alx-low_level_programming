@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
         n = strtoi(argv[i], &flag, 10);
         if (*flag)
         {
-            printf("Error");
+            printf("Error\n");
             return (1);
         }
         else
