@@ -3,7 +3,7 @@
 
 /**
  * main - printing the name of the program
- * @argc: size of argv 
+ * @argc: size of argv
  * @argv: array of pointers
  *
  * Return: success (0)
